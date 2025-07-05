@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/logo.jpeg",
         "backgroundColor": "#ffffff"
       },
       "package": "com.mdavafahreza.CoffeShop"
@@ -28,7 +28,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./src/assets/images/logo.jpeg",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -41,10 +41,8 @@
     "extra": {
       "router": {
         "origin": false
-      },
-      "eas": {
-        "projectId": "3a32fd64-ce40-4bb8-ab89-5ec4ff879843"
       }
-    }
+    },
+    "owner": "mdavafahreza"
   }
 }
