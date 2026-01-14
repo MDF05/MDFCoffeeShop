@@ -54,8 +54,8 @@ Follow these steps to set up the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/MDF05/coffeshop.git
-    cd coffeshop
+    git clone https://github.com/MDF05/MDFCoffeeShop.git
+    cd MDFCoffeeShop
     ```
 
 2.  **Install dependencies:**
