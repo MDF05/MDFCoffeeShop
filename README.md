@@ -1,50 +1,135 @@
-# Welcome to your Expo app 👋
+# CoffeShop - Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**CoffeShop** is a modern, cross-platform mobile application built with **React Native** and **Expo**, designed to provide a seamless coffee ordering experience.
 
-## Get started
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-Proprietary-blue.svg)
+![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)
 
-1. Install dependencies
+## 📖 Table of Contents
 
-   ```bash
-   npm install
-   ```
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [Folder Structure](#folder-structure)
+- [📚 Documentation](#-documentation)
+- [Contributing](#contributing)
+- [Security](#security)
+- [License](#license)
+- [Author](#author)
 
-2. Start the app
+## 🚀 Project Overview
 
-   ```bash
+CoffeShop aims to revolutionize the way customers interact with their favorite coffee spots. Built for both iOS and Android, it leverages the power of Expo to deliver a high-performance, native-like experience.
+
+## ✨ Features
+
+- **Cross-Platform**: Runs smoothly on both iOS and Android devices.
+- **Intuitive UI**: Designed with a focus on user experience and ease of use.
+- **Fast Performance**: Optimized for speed and responsiveness.
+- **File-Based Routing**: Utilizes Expo Router for simplified navigation logic.
+
+## 🛠 Tech Stack
+
+- **Framework**: [React Native](https://reactnative.dev/) (v0.76.2)
+- **Platform**: [Expo](https://expo.dev/) (~52.0.9)
+- **Routing**: [Expo Router](https://docs.expo.dev/router/introduction/) (~4.0.7)
+- **Language**: TypeScript / JavaScript
+- **Testing**: Jest, Jest-Expo
+
+## 📥 Installation
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm or yarn
+- Expo CLI (`npm install -g expo-cli`)
+
+### Steps
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/coffeshop.git
+    cd coffeshop
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+## 📱 Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+After starting the server:
+- **Android**: Press `a` in the terminal to open in Android Emulator.
+- **iOS**: Press `i` in the terminal to open in iOS Simulator (macOS only).
+- **Web**: Press `w` in the terminal to run in the browser.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🔑 Environment Variables
 
-## Get a fresh project
+Create a `.env` file in the root directory to configure the application. See [ENVIRONMENT.md](ENVIRONMENT.md) for details.
 
-When you're ready, run:
+## 📂 Folder Structure
 
-```bash
-npm run reset-project
+```
+CoffeShop/
+├── app/                 # Expo Router application code
+├── assets/              # Static assets (images, fonts)
+├── components/          # Reusable React components
+├── constants/           # Global constants and config
+├── hooks/               # Custom React hooks
+├── scripts/             # Utility scripts
+├── src/                 # Source code
+├── .env                 # Environment variables
+├── app.json             # Expo configuration
+├── package.json         # Dependencies and scripts,
+└── README.md            # Project documentation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📚 Documentation
 
-## Learn more
+For detailed information, please refer to the specific documentation files below:
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Architecture](ARCHITECTURE.md)
+- [API Documentation](API_DOCUMENTATION.md)
+- [Database Schema](DATABASE_SCHEMA.md)
+- [Deployment Guide](DEPLOYMENT.md)
+- [Environment Configuration](ENVIRONMENT.md)
+- [Testing Guide](TESTING.md)
+- [Style Guide](STYLE_GUIDE.md)
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Governance](GOVERNANCE.md)
+- [Support](SUPPORT.md)
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
+- [Disclaimer](DISCLAIMER.md)
+- [License](LICENSE)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🤝 Contributing
 
-## Join the community
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
 
-Join our community of developers creating universal apps.
+## 🔒 Security
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For security vulnerabilities and reporting, please verify our [Security Policy](SECURITY.md).
+
+## 📄 License
+
+This project is proprietary software. See the [LICENSE](LICENSE) file for details.
+
+## ✍️ Author
+
+**mdavafahreza**
+- Owner of CoffeShop

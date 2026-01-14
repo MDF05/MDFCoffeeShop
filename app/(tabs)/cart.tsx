@@ -16,6 +16,8 @@ export default function Cart() {
   const [toastVisible, setToastVisible] = React.useState(false);
   const [toastMessage, setToastMessage] = React.useState('');
 
+  console.log(items.forEach(item => console.log(item.coffee)));
+
   const showToast = (message: string) => {
     setToastMessage(message);
     setToastVisible(true);
@@ -66,9 +68,9 @@ export default function Cart() {
       <ScrollView style={styles.scrollView}>
         {items.map((item) => (
           <BlurView key={item.id} intensity={20} style={styles.cartItem}>
-            <Image source={{ uri: item.image }} style={styles.itemImage} />
+            <Image source={{ uri: item.coffee.image.uri }} style={styles.itemImage} />
             <View style={styles.itemDetails}>
-              <Text style={styles.itemName}>{item.name}</Text>
+              <Text style={styles.itemName}>{item.coffee.name}</Text>
               <Text style={styles.itemSize}>Size: {item.size}</Text>
               {item.extras.length > 0 && (
                 <Text style={styles.itemExtras}>
