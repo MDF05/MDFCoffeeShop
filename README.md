@@ -131,5 +131,5 @@ This project is proprietary software. See the [LICENSE](LICENSE) file for detail
 
 ## ✍️ Author
 
-**mdavafahreza**
+**Muhammad Dava Fahreza**
 - Owner of CoffeShop
