@@ -10,7 +10,7 @@ Need help with **CoffeShop**? We are here to assist you.
 ## 💬 Where to Get Help
 
 ### GitHub Issues
-For bug reports and feature requests, please use the [GitHub Issues](https://github.com/your-username/coffeshop/issues) tracker.
+For bug reports and feature requests, please use the [GitHub Issues](https://github.com/MDF05/coffeshop/issues) tracker.
 
 -   **Bug Reports**: Use the Bug Report template.
 -   **Feature Requests**: Use the Feature Request template.

@@ -18,7 +18,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/coffeshop.git
+    git clone https://github.com/MDF05/coffeshop.git
     ```
 2.  **Install dependencies**:
     ```bash

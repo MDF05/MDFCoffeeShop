@@ -54,7 +54,7 @@ Follow these steps to set up the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/coffeshop.git
+    git clone https://github.com/MDF05/coffeshop.git
     cd coffeshop
     ```
 
